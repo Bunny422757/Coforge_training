@@ -118,5 +118,9 @@ select * from tbl_agents a left outer join tbl_cust c on a.wrkarea=c.custarea;
 select * from tbl_agents a right outer join tbl_cust c on a.wrkarea=c.custarea;
 
 select * from tbl_agents a full join tbl_cust c on a.wrkarea=c.custarea;
+desc tbl_emp;
 
+select * from tbl_emp;
+insert into tbl_emp values(102,"Pranav",60000,20);
 
+select * from tbl_dept;

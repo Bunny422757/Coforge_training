@@ -1,0 +1,11 @@
+.question{
+	margin-bottom:20px;
+}
+
+.options{
+	margin-left: 20px;
+}
+
+label{
+	display:block;
+}

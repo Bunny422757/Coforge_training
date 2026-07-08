@@ -1,0 +1,19 @@
+body{
+	justify-content: center;
+	padding-top: 50px;
+}
+
+table{
+	border-spacing: 2px;
+	border:2px solid gray;
+	background-color:white;
+	width: 80%;
+}
+
+th, td{
+	border:1px solid grey;
+	padding:10px 15px;
+}
+th{
+	font-weight: bold;
+}

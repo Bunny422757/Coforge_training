@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DOM functionality</title>
+
+<script type="text/javascript">
+	function changeText() {
+		document.getElementById("heading").innerHTML = "<b><font color='green'>Welcome to Javscript DOM</font></b>";
+	}
+
+	function changeColour() {
+		document.body.classList.add("myStyle");
+	}
+
+	function changeImage() {
+		document.getElementById("myImage").src = "https://imgs.search.brave.com/jIkMZu3P7AoDe5WSNOv4k0rt2ifxWniGkFRJ8EvECM8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzc4LzBl/LzkxLzc4MGU5MWE5/MWU0MmY0MDc4ZGI3/MWM5NjBmZWYxODVk/LmpwZw";
+	}
+
+	function hidePara() {
+		document.getElementById("para").style.display = "none";
+	}
+
+	function showPara() {
+		document.getElementById("para").style.display = "block";
+	}
+
+	function changeFont() {
+		document.getElementById("info").style.fontSize = "30px";
+	}
+</script>
+
+<style type="text/css">
+.myStyle {
+	background-color: lightblue;
+}
+</style>
+
+</head>
+<body>
+	<h1 id="heading">Hello</h1>
+	<button onclick="changeText()">Change text</button>
+	<button onclick="changeColour()">Change Colour</button>
+	<br>
+	<br>
+	<img id="myImage"
+		src="https://imgs.search.brave.com/GLJX5xLVLFgPkaT_eLOhzf4hlU2Cgbi3-ZXJHGAHtrk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tcndh/bGxwYXBlci5jb20v/aW1hZ2VzL3RodW1i/bmFpbC9jcmlja2V0/LW1hZXN0cm8tYWIt/ZGUtdmlsbGllcnMt/ZmxhdW50aW5nLWhp/cy1zdHlsZS13aXRo/LWJsYWNrLXN1bmds/YXNzZXMtbGxhZGJr/a2dwN25sODRxOC5q/cGc"
+		width="200">
+	<br>
+	<br>
+	<button onclick="changeImage()">Change Image</button>
+	<br>
+	<h2>Hide and Show Paragraph</h2>
+	<p id="para">Javascript DOM Manipulation</p>
+	<button onclick="hidePara()">Hide</button>
+	<button onclick="showPara()">Show</button>
+	<br>
+	<p id="info">Myself Sai Pranav, I currently studying in GRIET</p>
+	<button onclick="changeFont()">Change Font</button>
+</body>
+</html>

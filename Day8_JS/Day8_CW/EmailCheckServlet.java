@@ -32,6 +32,7 @@ public class EmailCheckServlet extends HttpServlet {
 		}
 
 		out.close();
+		
 	}
 
 }

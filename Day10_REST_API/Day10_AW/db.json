@@ -1,0 +1,17 @@
+{
+  "employees": [
+    {
+      "eid": 104,
+      "ename": "Bharath",
+      "eemail": "ram@gmail.com",
+      "id": "SdnDrDXTTqA"
+    },
+    {
+      "eid": 102,
+      "ename": "Pranav",
+      "eemail": "pranav@gmail.com",
+      "id": "ywi_zgxRN9I"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

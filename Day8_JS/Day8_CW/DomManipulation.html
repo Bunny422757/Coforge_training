@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -40,4 +41,48 @@
 <button onclick="changeDOMStyle()">Change DOM</button>
 <button onclick="removeDOM()">Remove DOM</button>
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+.myStyle {
+	color: blue;
+}
+</style>
+<script type="text/javascript">
+
+	function createDOM() {
+		const myEle = document.createElement("h1");
+		myEle.textContent = "DOM Manipulation";
+		myEle.setAttribute("id", "myH1");
+		document.body.appendChild(myEle);
+	}
+
+	function updateDOM() {
+		const myEle = document.getElementById("myH1");
+		myEle.textContent = "New Text";
+	}
+
+	function changeDOMStyle() {
+		const myEle = document.getElementById("myH1");
+		myEle.classList.add("myStyle");
+	}
+
+	function removeDOM() {
+		const myEle = document.getElementById("myH1");
+		myEle.remove();
+	}
+	
+</script>
+</head>
+<body>
+<button onclick="createDOM()">Create DOM</button>
+<button onclick="updateDOM()">Update DOM</button>
+<button onclick="changeDOMStyle()">Change DOM</button>
+<button onclick="removeDOM()">Remove DOM</button>
+</body>
+>>>>>>> 9000e4a41b7cba1efe4c4b79e07e5aa2b21e0613
 </html>

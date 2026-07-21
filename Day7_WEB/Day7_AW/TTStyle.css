@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	justify-content: center;
 	padding-top: 50px;
@@ -16,4 +17,24 @@ th, td{
 }
 th{
 	font-weight: bold;
+=======
+body{
+	justify-content: center;
+	padding-top: 50px;
+}
+
+table{
+	border-spacing: 2px;
+	border:2px solid gray;
+	background-color:white;
+	width: 80%;
+}
+
+th, td{
+	border:1px solid grey;
+	padding:10px 15px;
+}
+th{
+	font-weight: bold;
+>>>>>>> 9000e4a41b7cba1efe4c4b79e07e5aa2b21e0613
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header{
 	color:red;
 	border:2px solid green;
@@ -10,4 +11,18 @@
 	border:2px solid green;
 	text-align: center;
 	border-radius:10px;
+=======
+.header{
+	color:red;
+	border:2px solid green;
+	text-align: center;
+	border-radius:10px;
+}
+
+.content{
+	color:red;
+	border:2px solid green;
+	text-align: center;
+	border-radius:10px;
+>>>>>>> 9000e4a41b7cba1efe4c4b79e07e5aa2b21e0613
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .loginDiv {
 	border: 2px solid green;
 	width: 260px;
@@ -14,4 +15,22 @@
 	color: white;
 	border-radius: 15px;
 	cursor: pointer;
+=======
+.loginDiv {
+	border: 2px solid green;
+	width: 260px;
+	color: red;
+	border-radius: 20px;
+	position: absolute;
+	top: 100px;
+	left: 250px;
+}
+
+.loginButton {
+	border: none;
+	background: violet;
+	color: white;
+	border-radius: 15px;
+	cursor: pointer;
+>>>>>>> 9000e4a41b7cba1efe4c4b79e07e5aa2b21e0613
 }

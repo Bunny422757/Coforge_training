@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 <head>
@@ -72,4 +73,80 @@
 <body onload="myFunction()"> 
 
 </body>
+=======
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript">
+	function addDefault(a=10, b=20){
+		console.log(a+b);
+	}
+	
+	addDefault();
+	
+	//Rest
+	function addRest(a,b,...args){
+		console.log(a+b);
+		
+		let total=0;
+		for(let n of args){
+			total = total + n;
+		}
+		console.log(total);
+	}
+	addRest(100, 200 ,300 ,400);
+	
+	//const
+	
+	const odd=[1,3,5];
+	const combined=[2,4,...odd];
+	
+	console.log(combined);
+	
+	//Array Destructing
+	
+	let arr=[10,20,30,40,50]
+	let [x,y,z]=arr;
+	console.log(x);
+	console.log(y);
+	console.log(z);
+	let [a,b,c,...args]=arr;
+	console.log(args);
+	
+	//Object Destructing
+	
+	//before ES6
+	let person = {
+		    firstName : "Sai Pranav",
+			lastName : "Akkinapalli"
+	}
+	let fname = person.firstName;
+	let lname = person.lastName;
+	
+	//afte ES6
+	let person1 = {
+		    firstName : "Sai Pranav",
+			lastName : "Akkinapalli"
+	}
+	let{firstName: fname1,lastName: lname1} = person1;
+	
+	
+	const add = (a, b) => a + b;
+	const welcome = (name) => "Welcome" + name;
+	
+	function myFunction(){
+		console.log(add(10, 20));
+		console.log(welcome("valan"));
+	}
+	
+	
+</script>
+</head>
+<body onload="myFunction()"> 
+
+</body>
+>>>>>>> 9000e4a41b7cba1efe4c4b79e07e5aa2b21e0613
 </html>

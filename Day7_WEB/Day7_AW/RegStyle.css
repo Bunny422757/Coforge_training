@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
 	font-family: Arial;
 	background-color:white;
@@ -15,4 +16,23 @@ th{
 
 td{
 	padding:8px;
+=======
+body{
+	font-family: Arial;
+	background-color:white;
+}
+
+table{
+	width:70%;
+	margin:40px auto;
+	border:2px solid black;
+}
+
+th{
+	padding:15px;
+}
+
+td{
+	padding:8px;
+>>>>>>> 9000e4a41b7cba1efe4c4b79e07e5aa2b21e0613
 }
